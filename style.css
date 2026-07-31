@@ -222,6 +222,50 @@ body{
     background:var(--whatsapp-hover);
 }
 
+
+/* ==============================
+   GOOGLE QR SCANNER
+================================ */
+.google-scanner-section{
+    width:100%;
+    padding:25px 20px 45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.google-scanner-card{
+    width:100%;
+    max-width:760px;
+    background:linear-gradient(180deg, #1A1A1A 0%, #141414 100%);
+    border:2px solid var(--gold);
+    border-radius:20px;
+    padding:30px 24px;
+    text-align:center;
+    box-shadow:0 0 22px rgba(0,0,0,.45);
+}
+.google-scanner-card h2{
+    font-size:34px;
+    color:#ffffff;
+    margin-bottom:10px;
+}
+.google-scanner-card p{
+    color:var(--gold);
+    font-size:17px;
+    margin:0 auto 22px;
+    max-width:620px;
+}
+.google-qr-image{
+    width:100%;
+    max-width:430px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+    border-radius:18px;
+    background:#ffffff;
+    padding:10px;
+    box-shadow:0 8px 24px rgba(0,0,0,.5);
+}
+
 /* ==============================
    FOOTER
 ================================ */
@@ -354,4 +398,23 @@ body{
     .floating-whatsapp{
         bottom:18px;
     }
+    .google-scanner-section{
+        padding:18px 12px 32px;
+    }
+    .google-scanner-card{
+        padding:22px 14px;
+        border-radius:16px;
+    }
+    .google-scanner-card h2{
+        font-size:25px;
+    }
+    .google-scanner-card p{
+        font-size:15px;
+    }
+    .google-qr-image{
+        max-width:100%;
+        padding:8px;
+        border-radius:14px;
+    }
+
 }
